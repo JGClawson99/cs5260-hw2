@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4182a42-444d-43ad-bec6-ab41bb0ad49d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/consumer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamo_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s3_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer.py" beforeDir="false" afterPath="$PROJECT_DIR$/producer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
