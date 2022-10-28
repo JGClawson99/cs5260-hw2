@@ -21,6 +21,8 @@ def conditional_put(item, dwt, conditional_expression=""):
             Item=item,
             # ConditionExpression=conditional_expression
         )
+
+        return item['id']
     except ClientError as e:
         # Ignore the ConditionalCheckFailedException, bubble up
         # other exceptions.
