@@ -1,6 +1,7 @@
 import uuid
 
 
+
 def build_update_request(widgetId, owner):
     return {
         "type": "update",
@@ -8,6 +9,8 @@ def build_update_request(widgetId, owner):
         "requestId": str(uuid.uuid1()),
         "owner": owner
     }
+
+
 
 
 def build_create_request(owner):
