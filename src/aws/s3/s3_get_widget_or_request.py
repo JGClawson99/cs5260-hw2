@@ -8,6 +8,6 @@ owner = boto3.client('sts').get_caller_identity().get('Account')
 def s3_get_widget_or_request(bucket, key):
     request = s3.get_object(Bucket=bucket, Key=key)
     if request['Body'] is None:
-        return None
+        return {}
 
     return json.loads(request['Body'].read())

@@ -1,12 +1,12 @@
 import argparse
 import boto3
+import os
 
 from aws.sqs.sqs_send_widget_request import sqs_send_widget_request
 from requests import build_create_request
 from aws.s3.s3_put_widget_or_request import s3_put_widget_or_request
 
 owner = boto3.client('sts').get_caller_identity().get('Account')
-
 
 def start_with_sqs(queue_url):
     while True:
